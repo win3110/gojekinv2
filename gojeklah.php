@@ -11,7 +11,7 @@ $headers[] = 'X-Location: -6.405821,106.064193';
         echo "\e[31m|           NOT SAFE FOR WORK IF 02              |\n";
         echo "\e[35m|         Recode doesn't make you a pro          |\n";
         echo "\e[32m|         Thanks to Netwezen Revolution          |\n";
-        echo "\e[33m|              Author : Sibirubah                |\n";
+        echo "\e[33m|              Author : WIN                      |\n";
         echo "\e[92m--------------------------------------------------\n";
         echo "\n";
         ulang:
@@ -66,8 +66,8 @@ echo "\e[91m [×] Gagal Claim Voucer !";
 sleep(5);
 echo "\n";
 
-echo "\e[96m[!] Mencoba Reedem Voucher 15+10 : GOFOODSANTAI11 \n";
-$data4 = '{"promo_code":"GOFOODSANTAI11"}';
+echo "\e[96m[!] Mencoba Reedem Voucher 15+10 : GOFOODSANTAI100 \n";
+$data4 = '{"promo_code":"GOFOODSANTAI100"}';
 $claim1 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data4, $headers);
 $claims1 = json_decode($claim1[0]);
 if($claims1->success == true) 
@@ -82,8 +82,8 @@ echo "\e[92m [✓]".$claims1->data->message."  [•] Tersimpan di ~> ".$live3;
 echo "\e[91m [×] Gagal Claim Voucer !";
 sleep(5);
 echo "\n";
- echo "\e[96m[!] Mencoba Redeem Voucher 10+10 : GOFOODSANTAI08 \n";
- $data5 = '{"promo_code":"GOFOODSANTAI08"}';
+ echo "\e[96m[!] Mencoba Redeem Voucher 10+10 : WADAWGOJEK \n";
+ $data5 = '{"promo_code":"WADAWGOJEK"}';
  $claim2 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data5, $headers);
  $claims2 = json_decode($claim2[0]);
  if($claims2->success == true) 
@@ -101,8 +101,8 @@ echo "\e[91m [×] Gagal Claim Voucer !";
 }
                 sleep(5);
                 echo "\n";
-                echo "\e[96m[!] Mencoba Redeem Vocher : COBAINGOJEK \n";
-                $data6 = '{"promo_code":"COBAINGOJEK"}';
+                echo "\e[96m[!] Mencoba Redeem Vocher : COBAINGOFOOD \n";
+                $data6 = '{"promo_code":"COBAINGOFOOD"}';
                 $claim3 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data6, $headers);
                 $claims3 = json_decode($claim3[0]);
                 if($claims3->success == true)
